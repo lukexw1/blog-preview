@@ -55,7 +55,7 @@ body{
 }
 #theme p{
     font-family: "FigTreeBold";
-    font-size: 0.875;
+    font-size: 0.875rem;
     line-height: 150%;
     text-align: left;
     padding: 0.25rem 0.75rem;
