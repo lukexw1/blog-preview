@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'FigTreeBold';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FigTreeMedium';
+    src: url('./assets/fonts/static/Figtree-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    background-color: rgb(244, 208, 78);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-height: 100vh;
+    flex-direction: column;
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+}
+#box{
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    width: 24rem;
+    height: 32.625rem;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px black ;
+    border: 1px solid black;
+    margin: 24px;
+    position: static;
+}
+#ill{
+    margin: 1.5rem;
+    border-radius: 10px;
+    max-width: 100%;
+    top: 0px;
+}
+#text{
+    margin: 1.5rem;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 24px; */
+    justify-content: space-between;
+}
+#theme{
+    background-color: yellow;
+    border-radius: 10px;
+    width: fit-content;
+}
+#theme p{
+    font-family: "FigTreeBold";
+    font-size: 0.875;
+    line-height: 150%;
+    text-align: left;
+    padding: 0.25rem 0.75rem;
+    margin: 0px;
+}
+#date{
+    font-family: "FigTreeMedium";
+    font-size: 0.875rem;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    margin-left: 0px;
+    color: rgb(17,17,17);
+}
+#name{
+    font-family: "FigTreeBold";
+    font-size: 1.5rem;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 0.75rem;
+    margin-left: 0px;
+    color: rgb(17,17,17);
+}
+#name:hover{
+    color:yellow;
+    cursor:pointer
+}
+#desc{
+    font-family: "FigTreeMedium";
+    font-size: 1rem;
+    line-height: 150%;
+    color: rgb(107,107,107);
+}
+#author{
+    display: flex;
+    font-family: "FigTreeBold";
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    cursor:pointer;
+}
+#author:hover{
+    color: yellow;
+}
+#author span {
+    font-size: 0.875rem;
+    line-height: 150%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#authorprofile{
+    padding-right: 0.75rem;
+    height: 2rem;
+    
+}
